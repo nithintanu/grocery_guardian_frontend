@@ -8,7 +8,7 @@ import retrofit2.http.Part
 
 interface ApiUpload {
     @Multipart
-    @POST("http://192.168.29.218:5000")
+    @POST("http://192.168.149.69:5000")
     fun uploadImage(
         @Part image: MultipartBody.Part,
         @Part("description") description: String
